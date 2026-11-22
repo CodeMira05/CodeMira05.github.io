@@ -42,30 +42,52 @@
       }
 
       main {
-        background-color: #120417c7;
-        font-color: white;
-        width: fit-content;
+        background-color: hsla(263, 100%, 6%, 0.882);
+        width: 800px;
+        height: fit-content;
         align-items: center;
         justify-content: center;
         margin: 20px auto;
         padding: 20px;
-        border: 4px solid #000000;
+        border: 4px solid hsla(0, 0%, 0%, 0.882);
         border-radius: 20px;
       }
 
-      .site2 {
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        font-weight: 500;
-        width: 45px;
-        height: 30px;
+      main h2 {
+        color: white;
+        font-family: "Palatino";
+        text-align: center;
+        font-size: 45px;
+        margin-top: 0;
+        margin-bottom:40px;
+      }
+
+      main p {
+        color: white;
+        font-family: "Palatino";
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .zuffalsgen {
+        background-color: rgba(18, 4, 23, 0.7);
+        color: rgb(255, 255, 255, 1);
+        font-weight: 600;
+        width: 140px;
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
         padding: 0px 15px;
         border-radius: 20px;
+        transition: background-color 0.3;
       }
+
+        .zuffalsgen:hover {
+          background-color: rgba(18, 4, 23, 1);
+        }
 
       body {
         background-image: url("osu_wallpaper.png");
@@ -107,12 +129,13 @@
         <h1>Umbra Royale</h1>
       </div>
       <nav>
-        <a href="site2.html" class="site2">Site 2</a>
+        <a href="zufallsgenerator.html" class="zuffalsgen">Zufallsgenerator</a>
       </nav>
     </header>
     <main>
       <h2>Willkommen bei Umbra Royale</h2>
-      <p>Hier steht dein großer Text.</p>
+      <p>osu! ist ein kostenloses Rhythmusspiel:
+        Du triffst Kreise, folgst Schiebereglern oder drückst Tasten im Takt der Musik. Es gibt mehrere Modi, darunter Trommeln (taiko), Früchte fangen (catch) und Tasten-Gameplay (mania).</p>
     </main>
   </body>
 </html>
