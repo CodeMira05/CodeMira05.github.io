@@ -61,6 +61,26 @@
         background-position: center;
         margin: 0;
       }
+
+      @media (max-width: 700px) {
+        header {
+          grid-template-columns: 1fr;
+          justify-items: center;
+        }
+
+        nav {
+          grid-column: 1;
+        }
+
+        body {
+          background-attachment: scroll;
+        }
+
+        h1 {
+          font-size: 36px;
+          white-space: normal;
+        }
+      }
     </style>
   </head>
   <body>
